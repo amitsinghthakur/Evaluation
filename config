@@ -1,0 +1,16 @@
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	bare = true
+	logallrefupdates = false
+[http]
+	sslVerify = true
+[remote "origin"]
+	url = file:///E:/Lab/BRMS/bin/.kie-wb-playground/09ce3bab2bc15b58abc2d9b3adbc9ab1
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	fetch = +refs/tags/*:refs/tags/*
+	fetch = +refs/notes/*:refs/notes/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
